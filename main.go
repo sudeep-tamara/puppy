@@ -1,7 +1,9 @@
 package puppy
 
-import "fmt"
+func Bark() string {
+	return "Woof!"
+}
 
-func Bark() {
-	fmt.Println("Barked")
+func Barks() string {
+	return "Woof! Woof! Woof!"
 }
